@@ -5,13 +5,5 @@ services:
     plan: free
     autoDeployTrigger: commit
 
-
     buildCommand: echo "no build"
-
-
     staticPublishPath: ./www
-
-    routes:
-      - type: rewrite
-        source: "/*"
-        destination: /index.html
